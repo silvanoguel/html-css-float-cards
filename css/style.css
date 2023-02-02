@@ -36,18 +36,26 @@ h1 {
     margin: 20px;
 }
 
+.email{
+    color: aqua;
+    
+}
 
 /* Layout */
 .col {
-    width: calc(100% / 3 - 20px);
-    float: left;
-    margin-right: 20px;
-    text-align: center;
+    width: calc(100% / 3);
+    float: left;  
     padding: 20px;
 }
 
 .bluebox {
-    background-color: blue;
+    background-color: black;
     height: 100px;
+    text-align: left;
+    color: white;
     
+}
+
+.image {
+    float: left;
 }
